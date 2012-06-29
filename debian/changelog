@@ -1,6 +1,12 @@
+pinba-engine (0.0.7-gitadd055a~tooptee10+2) lucid; urgency=low
+
+  * dotBuntu build for Ubuntu 10.04 Lucid & MySQL 5.5
+
+ -- Jean Baptiste Favre <jbfavre@dotbuntu.org>  Fri, 29 Jun 2012 16:26:36 +0200
+
 pinba-engine (0.0.6-2~tooptee10+1) lucid; urgency=low
 
-  * dotBuntu build for Ubuntu 10.04 Lucid & MySQL 5.1
+  * dotBuntu build for Ubuntu 10.04 Lucid & MySQL 5.5
 
  -- Jean Baptiste Favre <jbfavre@dotbuntu.org>  Fri, 29 Jun 2012 15:33:52 +0200
 
