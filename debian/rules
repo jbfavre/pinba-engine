@@ -14,6 +14,7 @@ override_dh_auto_configure:
 	tar -zxf /usr/src/mysql/mysql-source-5.5.tar.gz -C debian/mysql-source-5.5
 	# Ugly, eh?
 	cp -a $(CURDIR)/debian/mysql-source-5.5/mysql-5.5/builddir/include/* $(CURDIR)/debian/mysql-source-5.5/mysql-5.5/include/
+	autoreconf -i
 	dh_auto_configure -- --with-mysql=$(CURDIR)/debian/mysql-source-5.5/mysql-5.5 --libdir=$(MYSQL_PLUGIN_DIR)
 
 override_dh_install:
