@@ -9,7 +9,8 @@ Build-Depends: debhelper (>= 7.0.50~),
                libmysqlclient-dev (>= 5.5.0),
                libprotobuf-dev,
                libjudy-dev,
-               libevent-dev
+               libevent-dev,
+               dh-autoreconf
 Standards-Version: 3.9.3
 Homepage: http://pinba.org/
 
