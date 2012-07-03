@@ -1,0 +1,11 @@
+--- pinba-engine-0.0.7.orig/configure.in
++++ pinba-engine-0.0.7/configure.in
+@@ -293,7 +293,7 @@ else
+   LDFLAGS="$LDFLAGS -L$LIBPROTOBUF_DIR/lib"
+   CXXFLAGS="$CXXFLAGS -I$LIBPROTOBUF_DIR/include"
+   CFLAGS="$CFLAGS -I$LIBPROTOBUF_DIR/include"
+-  DEPS_LIBS="$LIBS -lprotobuf-lite"
++  DEPS_LIBS="$LIBS -lprotobuf"
+ 
+   if test "$PINBA_RPATH" != "no"; then
+     LDFLAGS="$LDFLAGS $ld_runpath_switch$LIBPROTOBUF_DIR/$LIBDIR"
